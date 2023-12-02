@@ -106,7 +106,7 @@ h2 {
     content: '';
     position: absolute;
     inset: 0;
-    background: yellow;
+    background: url(quest.png);
     background-size: cover; 
     transition: 0.25s;
     transform: rotate(0deg);
