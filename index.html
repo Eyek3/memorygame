@@ -48,20 +48,6 @@
             document.querySelector('.game').appendChild(box);
         }
 
-        particlesJS("confetti-container", {
-            particles: {
-                number: { value: 100 },
-                color: { value: "#ff0000" },
-                shape: { type: "circle" },
-                size: { value: 5 },
-                opacity: { value: 0.7, random: true },
-                move: { enable: true, speed: 5, direction: "bottom", random: true, straight: false, out_mode: "out" }
-            },
-            interactivity: {
-                events: {
-                    onhover: { enable: true, mode: "repulse" }
-                }
-            }
         });
 
         function celebrateWin() {
